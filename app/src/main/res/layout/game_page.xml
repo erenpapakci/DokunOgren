@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.papakci.software.dokunogren.Application.GamePage">
+
+
+    <TextView
+        android:id="@+id/txt_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:layout_x="99dp"
+        android:layout_y="354dp"
+        android:fontFamily="@font/rammetto_one"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/ivw_img"
+        android:layout_width="261dp"
+        android:layout_height="196dp"
+        android:layout_above="@+id/txt_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:layout_x="28dp"
+        android:layout_y="144dp" />
+
+    <ImageView
+        android:id="@+id/ivw_clickhand"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txt_img"
+        android:layout_toRightOf="@+id/txt_img"
+        android:layout_x="126dp"
+        android:layout_y="18dp"
+        app:srcCompat="@drawable/hand" />
+
+    <ImageView
+        android:id="@+id/ivw_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        app:srcCompat="@drawable/back_button" />
+
+
+</RelativeLayout>

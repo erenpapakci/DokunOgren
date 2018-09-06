@@ -1,0 +1,13 @@
+<resources>
+    <string name ="app_name">Dokun Öğren</string>
+    <string name ="btn_start">Başlayalım</string>
+    <string name ="title_activity_main">MainActivity</string>
+    <string name ="title_activity_home_page">HomePage</string>
+    <string name ="title_activity_game_page">GamePage</string>
+    <string name ="title_activity_splash_screen">SplashScreen</string>
+    <string name ="menu_button_emotion">DUYGULAR</string>
+    <string name ="menu_button_animal">HAYVANLAR</string>
+    <string name ="menu_button_color">RENKLER</string>
+    <string name ="menu_button_number">SAYILAR</string>
+    <string name ="txt_version">Sürüm 1.0</string>
+</resources>
